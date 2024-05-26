@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
+
+#app,
+body {
+    display: flex
+}
+
+#app,
+.inside-app {
+    overflow: hidden;
+    position: absolute
+}
+
+#AC,
+#add,
+#del,
+#percent {
+    margin-top: 20px
+}
+
+#btn7,
+#btn8,
+#btn9,
+#subtract {
+    margin-top: 80px
+}
+
+#btn4,
+#btn5,
+#btn6,
+#multiply {
+    margin-top: 140px
+}
+
+#btn2,
+#btn5,
+#btn8,
+#del {
+    margin-left: 80px
+}
+
+#btn1,
+#btn2,
+#btn3,
+#divide {
+    margin-top: 200px
+}
+
+#AC,
+#btn0,
+#btn1,
+#btn4,
+#btn7 {
+    margin-left: 9px
+}
+
+#btn3,
+#btn6,
+#btn9,
+#dot,
+#percent {
+    margin-left: 150px
+}
+
+#btn0,
+#dot,
+#eqqual {
+    margin-top: 260px
+}
+
+#add,
+#divide,
+#eqqual,
+#multiply,
+#subtract {
+    margin-left: 220px
+}
+
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center
+}
+
+#app {
+    background-color: #fcf5e5;
+    height: 80%;
+    max-height: 460px;
+    width: 50%;
+    max-width: 315px;
+    border-style: solid;
+    border-color: #000 solid;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px -2px
+}
+
+input {
+    width: 290px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: 0 0;
+    font-size: 50px;
+    text-align: right;
+    cursor: default;
+    z-index: 2;
+    pointer-events: none
+}
+
+.inside-app {
+    margin-top: 110px;
+    height: 78%;
+    width: 100%;
+    background-color: #f3b8d1;
+    border-radius: 4%
+}
+
+#AC,
+#add,
+#btn0,
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9,
+#del,
+#divide,
+#dot,
+#eqqual,
+#multiply,
+#percent,
+#subtract {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 15%;
+    width: 17%;
+    background-color: #fcf5e5;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: #000 solid;
+    box-shadow: 2px 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    z-index: 1
+}
+
+#btn0 {
+    width: 41%;
+    border-radius: 12%
+}
+
+#AC:active,
+#AC:hover,
+#add:active,
+#add:hover,
+#btn0:active,
+#btn0:hover,
+#btn1:active,
+#btn1:hover,
+#btn2:active,
+#btn2:hover,
+#btn3:active,
+#btn3:hover,
+#btn4:active,
+#btn4:hover,
+#btn5:active,
+#btn5:hover,
+#btn6:active,
+#btn6:hover,
+#btn7:active,
+#btn7:hover,
+#btn8:active,
+#btn8:hover,
+#btn9:active,
+#btn9:hover,
+#del:active,
+#del:hover,
+#divide:active,
+#divide:hover,
+#dot:active,
+#dot:hover,
+#eqqual:active,
+#eqqual:hover,
+#multiply:active,
+#multiply:hover,
+#percent:active,
+#percent:hover,
+#subtract:active,
+#subtract:hover {
+    box-shadow: none;
+    transform: translateY(2px);
+    background-color: #dee0df
+}
+
+#AC,
+#add,
+#btn0,
+#btn1,
+#btn2,
+#btn3,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9,
+#del,
+#divide,
+#dot,
+#eqqual,
+#multiply,
+#percent,
+#subtract {
+    cursor: pointer;
+    transition: background-color .3s, transform .3s
+}
